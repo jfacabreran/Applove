@@ -1,0 +1,174 @@
+/*
+ * Ingresa el CSS del proyecto en este archivo
+ */
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  /* Establece la fuente de Google aquí */
+  font-family: 'Raleway', sans-serif;
+  margin: 0 auto;
+  font-size: 16px;
+  line-height: 1.71429;
+  background-color: #fff;
+}
+
+img {
+  vertical-align: middle;
+}
+
+a {
+  color: #373B47;
+  text-decoration: none;
+}
+
+header{
+  position: fixed;
+  background: white;
+  width: 100%;
+  top: 0;
+}
+
+a:hover {
+  color: #E95853;
+}
+
+.link{
+  font-weight: 700;/*pork 700*/
+  padding: 21px;
+  display: inline-block;
+}
+
+.logo{
+  float: right;
+}
+
+.menu{
+  padding: 14px 70px;
+  overflow: auto;
+}
+
+#home{
+  background-image: url(../assets/images/bg-home.jpg);/*Nuestra Imagen de fondo*/
+  background-position: center;/**/
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 554px;
+  text-align: center;
+  margin-top: 80px;
+}
+
+#home .container{
+  color: white;
+  padding: 70px;
+}
+
+.text-home{
+  font-size: 53px;
+}
+header{
+  position: fixed;
+}
+
+.btn-home{
+  background: #2ECC71;
+  color: #fff;
+  padding: 11px 20px;
+  border-radius: 1px;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin-top: 63px;
+  display: inline-block;
+  font-size: 14px;
+}
+
+#services{
+  background: #F17C72;
+  text-align: center;
+  color: #fff;
+  padding: 70px 7px;
+}
+
+.box-services{
+  display: inline-block;
+  width: 30%;
+  margin-top: 63px;
+}
+
+.text-services{
+  font-size: 35px;
+  letter-spacing: 2px;
+}
+#work{
+  background: #ffffff;
+  text-align: center;
+  color: #000;
+  padding: 70px 7px;
+  position: relative;
+}
+.text-work{
+  font-size: 35px;
+  letter-spacing: 2px;
+}
+.box-work{
+  display: inline-block;
+  width: 30%;
+  margin-top: 63px;
+}
+.max-img{/*Div de Maximizado*/
+  background-color: rgba(46,204,113,.7);
+  position:fixed;
+  width: 100%;
+  z-index: 2;
+
+  top:0;
+  left: 0;
+  right:0;
+  bottom: 0;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+.maximize{
+  border: 10px solid white;
+  width: 52%;
+  border-radius: 5;
+  position: relative;
+}
+.btn-cerrar, .btn-nxt{
+  color:#2ECC71;
+  z-index: 5;
+  position: absolute;
+  font-size: 40px;
+  font-weight: bold;
+  right: 25.5%;
+}
+.btn-cerrar{
+  top:3%;
+}
+.btn-cerrar:hover,.btn-nxt:hover{
+  cursor: pointer;
+  cursor: hand;
+}
+.btn-nxt{
+  vertical-align: center;
+  font-size: 50px;
+}
+footer{
+  text-align: center;
+  height: 70px;
+  background: #373B47;
+  color: white;
+  padding-top: 7px;
+}

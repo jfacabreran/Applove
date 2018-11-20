@@ -1,0 +1,17 @@
+/*
+ * Archivo principal de funcionalidad de JS
+ */
+
+ for(var i=0;i<9;i++){
+ 	var _i = i;
+ 	var name = "img-"+(i+1);
+ 	var img = document.getElementById(name);
+ 	img.onclick = function(){
+ 		var div = document.createElement("div");
+ 		console.log(this.id);
+ 		div.className = "max-img";
+ 		div.innerHTML = "<img class ='maximize' src='assets/images/"+this.id +".jpg"+"'>";
+ 		document.querySelector("body").appendChild(div);
+ 	};
+
+ }
